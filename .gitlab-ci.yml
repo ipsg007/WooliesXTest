@@ -5,5 +5,4 @@ test:
   stage: test
   script:
     - npm ci
-    - npm run start:ci &
     - npm run cy:run:ci
