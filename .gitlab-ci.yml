@@ -1,9 +1,9 @@
 stages:
-  - Test
+  - test
 test:
   image: node:latest
-  stage: Test
+  stage: test
   script:
     - npm ci
-    - xvfb-run npx cypress verify
-    - xvfb-run npx cypress run
+    - npx cypress verify
+    - npx cypress run
