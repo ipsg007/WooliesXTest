@@ -1,0 +1,24 @@
+{
+  "name": "wooliesxtest",
+  "version": "1.0.0",
+  "description": "test project",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^6.6.0",
+    "typescript": "^4.2.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ipsg007/WooliesXTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ipsg007/WooliesXTest/issues"
+  },
+  "homepage": "https://github.com/ipsg007/WooliesXTest#readme"
+}

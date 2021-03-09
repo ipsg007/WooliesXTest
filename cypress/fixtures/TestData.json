@@ -1,0 +1,10 @@
+{
+    "email": "testforautomation@example.com",
+    "password": "testing@123",
+    "total": 78.99,
+    "totalWithoutShipping" : 76.99,
+    "shippingCharges": 2.00,
+    "totalWithoutTax": 78.99,
+    "tax": 0.00,
+    "orderConfirmationText": "Your order on My Store is complete."
+  }
