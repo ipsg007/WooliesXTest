@@ -1,8 +1,8 @@
 stages:
-  - test
+  - Test
 test:
   image: node:latest
-  stage: test
+  stage: Test
   script:
     - npm ci
     - npm run cy:run:ci
