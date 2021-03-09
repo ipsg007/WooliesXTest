@@ -11,7 +11,9 @@
   "devDependencies": {},
   "scripts": {
     "cy:open": "cypress open",
-    "cy:run": "cypress run"
+    "cy:run": "cypress run",
+    "cy:clean": "rimraf -rf cypress/results/* cypress/screenshots cypress/videos  || true",
+    "cy:run:ci": "npm run cy:clean && mkdir cypress/screenshots/ && echo 2>cypress/screenshots/dummy-file.keep && npm run cy:run:all"
   },
   "repository": {
     "type": "git",
