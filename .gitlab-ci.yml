@@ -4,6 +4,6 @@ test:
   image: node:latest
   stage: Test
   script:
-    - apt-get install xvfb
     - npm ci
-    - npm run cy:run:ci
+    - xvfb-run npx cypress verify
+    - xvfb-run npx cypress run
