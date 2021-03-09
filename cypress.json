@@ -1,0 +1,13 @@
+{
+	"baseUrl": "http://automationpractice.com/index.php",
+	"supportFile": "cypress/support/index.ts",
+	"defaultCommandTimeout": 8000,
+	"chromeWebSecurity": false,   
+	"viewportWidth": 2000,
+	"viewportHeight": 1500,
+	"pageLoadTimeout" : 80000,
+	"trashAssetsBeforeRuns": false,
+	"testFiles": "**/*.spec.ts",
+	"experimentalSourceRewriting": true,
+	"modifyObstructiveCode": true
+}

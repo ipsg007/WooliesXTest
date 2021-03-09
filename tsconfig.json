@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "strict": true,
+      "baseUrl": "../node_modules",
+      "target": "es2020",
+      "lib": ["es2020", "dom"],
+      "types": [
+        "cypress",
+        "node"        
+      ],
+      "moduleResolution": "Node",
+      "noImplicitAny": false,
+      "resolveJsonModule": true,
+      "allowSyntheticDefaultImports": true
+    },
+    "include": ["**/*.ts"]
+  }
