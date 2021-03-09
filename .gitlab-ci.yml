@@ -1,9 +1,9 @@
-image: cypress/base:10
-
 stages:
- -test
+  - test
 test:
- stage: test
- script: 
-  - npm install
-  - npm run cy:run
+  image: node:latest
+  stage: test
+  script:
+    - npm ci
+    - npm run start:ci &
+    - npm run cy:run
